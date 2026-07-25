@@ -1,0 +1,17 @@
+# Render Blueprint Deployment Configuration
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: ai-resume-analyzer
+    runtime: python
+    region: oregon  # or: frankfurt, singapore, virginia
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.12
+    healthCheckPath: /
+    autoDeploy: true
+
