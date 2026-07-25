@@ -194,7 +194,5 @@ User Uploads PDF → PyMuPDF extracts text → Analyzer processes text
 | Skills | 25 | Number and variety of skills |
 | Action Verbs | 20 | Use of strong action verbs |
 
----
-
 
 
