@@ -196,27 +196,5 @@ User Uploads PDF → PyMuPDF extracts text → Analyzer processes text
 
 ---
 
-## 🤝 Contributing
 
-Contributions are welcome! Feel free to:
-
-- Open an [issue](https://github.com/your-username/AI-Resume-Analyzer/issues)
-- Submit a pull request
-- Suggest new features
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
-
-## ⭐ Show Your Support
-
-If you found this project useful, please give it a ⭐ on GitHub!
-
----
-
-*Built with ❤️ using Streamlit and Hugging Face Transformers*
 
